@@ -77,3 +77,45 @@ dtype: int64
 2026-07-22 22:53:23 | INFO | ML | ========================
 2026-07-22 22:53:23 | INFO | ML | Executed successfully!
 2026-07-22 22:53:23 | INFO | ML | ========================
+2026-07-22 22:58:35 | INFO | M04 | === RUN START ===
+2026-07-22 22:58:35 | INFO | M04 | project=M04
+2026-07-22 22:58:35 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-22 22:58:35 | INFO | M04 | python=3.14.5
+2026-07-22 22:58:35 | INFO | M04 | os=Darwin 20.6.0
+2026-07-22 22:58:35 | INFO | M04 | shell=zsh
+2026-07-22 22:58:35 | INFO | M04 | cwd=notebooks
+2026-07-22 22:58:35 | INFO | M04 | github_actions=False
+2026-07-22 22:58:35 | INFO | M04 | Confirming installation:
+2026-07-22 22:58:35 | INFO | M04 |   python:       3.14.5
+2026-07-22 22:58:35 | INFO | M04 |   pandas:       3.0.5
+2026-07-22 22:58:35 | INFO | M04 |   numpy:        2.5.1
+2026-07-22 22:58:35 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-22 22:58:35 | INFO | M04 |   seaborn:      0.13.2
+2026-07-22 22:58:35 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-22 22:58:35 | INFO | M04 | Loading dataset: penguins
+2026-07-22 22:58:35 | INFO | M04 | Loaded: 344 rows (instances), 7 columns
+2026-07-22 22:58:35 | INFO | M04 | Original rows: 344  Model rows: 342
+2026-07-22 22:58:35 | INFO | M04 | Train instances: 273
+2026-07-22 22:58:35 | INFO | M04 | Test instances: 69
+2026-07-22 22:58:35 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-22 22:58:35 | INFO | M04 | Fitted line: body_mass_g = 48.8297 * flipper_length_mm + -5614.07
+2026-07-22 22:58:35 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-22 22:58:35 | INFO | M04 |   R-squared: 0.7820
+2026-07-22 22:58:35 | INFO | M04 |   RMSE:      380.695  (in units of Body mass (g))
+2026-07-22 22:58:37 | DEBUG | M04 |   degree= 1  train RMSE=396.474  test RMSE=380.695
+2026-07-22 22:58:37 | DEBUG | M04 |   degree= 2  train RMSE=378.915  test RMSE=384.983
+2026-07-22 22:58:37 | DEBUG | M04 |   degree= 3  train RMSE=373.966  test RMSE=385.441
+2026-07-22 22:58:37 | DEBUG | M04 |   degree= 4  train RMSE=371.674  test RMSE=388.38
+2026-07-22 22:58:37 | DEBUG | M04 |   degree= 5  train RMSE=371.609  test RMSE=389.321
+2026-07-22 22:58:37 | DEBUG | M04 |   degree= 6  train RMSE=371.408  test RMSE=390.954
+2026-07-22 22:58:37 | DEBUG | M04 |   degree= 7  train RMSE=370.732  test RMSE=389.535
+2026-07-22 22:58:37 | DEBUG | M04 |   degree= 8  train RMSE=370.598  test RMSE=390.56
+2026-07-22 22:58:37 | DEBUG | M04 |   degree= 9  train RMSE=370.542  test RMSE=390.553
+2026-07-22 22:58:37 | DEBUG | M04 |   degree=10  train RMSE=370.547  test RMSE=390.545
+2026-07-22 22:58:38 | INFO | M04 | ========================
+2026-07-22 22:58:38 | INFO | M04 | SUMMARY
+2026-07-22 22:58:38 | INFO | M04 | ========================
+2026-07-22 22:58:38 | INFO | M04 | Dataset:  penguins
+2026-07-22 22:58:38 | INFO | M04 | Feature:  flipper_length_mm  ->  Target: body_mass_g  (regression)
+2026-07-22 22:58:38 | INFO | M04 | Line:     body_mass_g = 48.8297 * flipper_length_mm + -5614.07
+2026-07-22 22:58:38 | INFO | M04 | ========================
