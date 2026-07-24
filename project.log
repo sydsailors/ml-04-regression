@@ -203,3 +203,90 @@ dtype: int64
 2026-07-24 15:23:34 | INFO | M04 | Feature:  bill_length_mm  ->  Target: body_mass_g  (regression)
 2026-07-24 15:23:34 | INFO | M04 | Line:     body_mass_g = 85.0564 * bill_length_mm + 473.402
 2026-07-24 15:23:34 | INFO | M04 | ========================
+2026-07-24 15:26:01 | INFO | M04 | === RUN START ===
+2026-07-24 15:26:01 | INFO | M04 | project=M04
+2026-07-24 15:26:01 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-24 15:26:01 | INFO | M04 | python=3.14.5
+2026-07-24 15:26:01 | INFO | M04 | os=Darwin 20.6.0
+2026-07-24 15:26:01 | INFO | M04 | shell=zsh
+2026-07-24 15:26:01 | INFO | M04 | cwd=notebooks
+2026-07-24 15:26:01 | INFO | M04 | github_actions=False
+2026-07-24 15:26:01 | INFO | M04 | Confirming installation:
+2026-07-24 15:26:01 | INFO | M04 |   python:       3.14.5
+2026-07-24 15:26:01 | INFO | M04 |   pandas:       3.0.5
+2026-07-24 15:26:01 | INFO | M04 |   numpy:        2.5.1
+2026-07-24 15:26:01 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-24 15:26:01 | INFO | M04 |   seaborn:      0.13.2
+2026-07-24 15:26:01 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-24 15:26:04 | INFO | M04 | Loading dataset: penguins
+2026-07-24 15:26:04 | INFO | M04 | Loaded: 344 rows (instances), 7 columns
+2026-07-24 15:26:04 | INFO | M04 | Original rows: 344  Model rows: 342
+2026-07-24 15:26:09 | INFO | M04 | Train instances: 273
+2026-07-24 15:26:09 | INFO | M04 | Test instances: 69
+2026-07-24 15:26:16 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-24 15:26:16 | INFO | M04 | Fitted line: body_mass_g = -190.865 * bill_depth_mm + 7483.25
+2026-07-24 15:26:27 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-24 15:26:27 | INFO | M04 |   R-squared: 0.2068
+2026-07-24 15:26:27 | INFO | M04 |   RMSE:      726.234  (in units of Body mass (g))
+2026-07-24 15:26:35 | DEBUG | M04 |   degree= 1  train RMSE=700.856  test RMSE=726.234
+2026-07-24 15:26:35 | DEBUG | M04 |   degree= 2  train RMSE=687.442  test RMSE=696.251
+2026-07-24 15:26:35 | DEBUG | M04 |   degree= 3  train RMSE=648.074  test RMSE=650.296
+2026-07-24 15:26:35 | DEBUG | M04 |   degree= 4  train RMSE=625.34  test RMSE=608.286
+2026-07-24 15:26:35 | DEBUG | M04 |   degree= 5  train RMSE=616.368  test RMSE=598.951
+2026-07-24 15:26:35 | DEBUG | M04 |   degree= 6  train RMSE=598.381  test RMSE=551.776
+2026-07-24 15:26:35 | DEBUG | M04 |   degree= 7  train RMSE=597.625  test RMSE=552.132
+2026-07-24 15:26:35 | DEBUG | M04 |   degree= 8  train RMSE=595.458  test RMSE=535.245
+2026-07-24 15:26:35 | DEBUG | M04 |   degree= 9  train RMSE=595.001  test RMSE=530.57
+2026-07-24 15:26:35 | DEBUG | M04 |   degree=10  train RMSE=594.384  test RMSE=526.552
+2026-07-24 15:26:47 | INFO | M04 | ========================
+2026-07-24 15:26:47 | INFO | M04 | SUMMARY
+2026-07-24 15:26:47 | INFO | M04 | ========================
+2026-07-24 15:26:47 | INFO | M04 | Dataset:  penguins
+2026-07-24 15:26:47 | INFO | M04 | Feature:  bill_depth_mm  ->  Target: body_mass_g  (regression)
+2026-07-24 15:26:47 | INFO | M04 | Line:     body_mass_g = -190.865 * bill_depth_mm + 7483.25
+2026-07-24 15:26:47 | INFO | M04 | ========================
+2026-07-24 15:30:28 | INFO | M04 | === RUN START ===
+2026-07-24 15:30:29 | INFO | M04 | project=M04
+2026-07-24 15:30:29 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-24 15:30:29 | INFO | M04 | python=3.14.5
+2026-07-24 15:30:29 | INFO | M04 | os=Darwin 20.6.0
+2026-07-24 15:30:29 | INFO | M04 | shell=zsh
+2026-07-24 15:30:29 | INFO | M04 | cwd=notebooks
+2026-07-24 15:30:29 | INFO | M04 | github_actions=False
+2026-07-24 15:30:29 | INFO | M04 | Confirming installation:
+2026-07-24 15:30:29 | INFO | M04 |   python:       3.14.5
+2026-07-24 15:30:29 | INFO | M04 |   pandas:       3.0.5
+2026-07-24 15:30:29 | INFO | M04 |   numpy:        2.5.1
+2026-07-24 15:30:29 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-24 15:30:29 | INFO | M04 |   seaborn:      0.13.2
+2026-07-24 15:30:29 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-24 15:30:33 | INFO | M04 | Loading dataset: penguins
+2026-07-24 15:30:33 | INFO | M04 | Loaded: 344 rows (instances), 7 columns
+2026-07-24 15:30:33 | INFO | M04 | Original rows: 344  Model rows: 333
+2026-07-24 15:30:36 | INFO | M04 | Loading dataset: penguins
+2026-07-24 15:30:36 | INFO | M04 | Loaded: 344 rows (instances), 7 columns
+2026-07-24 15:30:36 | INFO | M04 | Original rows: 344  Model rows: 333
+2026-07-24 15:30:41 | INFO | M04 | Train instances: 266
+2026-07-24 15:30:41 | INFO | M04 | Test instances: 67
+2026-07-24 15:30:46 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-24 15:30:46 | INFO | M04 | Fitted line: body_mass_g = 668.444 * sex + 3867.97
+2026-07-24 15:30:53 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-24 15:30:53 | INFO | M04 |   R-squared: 0.2158
+2026-07-24 15:30:53 | INFO | M04 |   RMSE:      702.838  (in units of Body mass (g))
+2026-07-24 15:31:08 | DEBUG | M04 |   degree= 1  train RMSE=733.986  test RMSE=702.838
+2026-07-24 15:31:08 | DEBUG | M04 |   degree= 2  train RMSE=733.986  test RMSE=702.838
+2026-07-24 15:31:08 | DEBUG | M04 |   degree= 3  train RMSE=733.986  test RMSE=702.838
+2026-07-24 15:31:08 | DEBUG | M04 |   degree= 4  train RMSE=733.986  test RMSE=702.838
+2026-07-24 15:31:08 | DEBUG | M04 |   degree= 5  train RMSE=733.986  test RMSE=702.838
+2026-07-24 15:31:08 | DEBUG | M04 |   degree= 6  train RMSE=733.986  test RMSE=702.838
+2026-07-24 15:31:08 | DEBUG | M04 |   degree= 7  train RMSE=733.986  test RMSE=702.838
+2026-07-24 15:31:08 | DEBUG | M04 |   degree= 8  train RMSE=733.986  test RMSE=702.838
+2026-07-24 15:31:08 | DEBUG | M04 |   degree= 9  train RMSE=733.986  test RMSE=702.838
+2026-07-24 15:31:08 | DEBUG | M04 |   degree=10  train RMSE=733.986  test RMSE=702.838
+2026-07-24 15:31:41 | INFO | M04 | ========================
+2026-07-24 15:31:41 | INFO | M04 | SUMMARY
+2026-07-24 15:31:41 | INFO | M04 | ========================
+2026-07-24 15:31:41 | INFO | M04 | Dataset:  penguins
+2026-07-24 15:31:41 | INFO | M04 | Feature:  sex  ->  Target: body_mass_g  (regression)
+2026-07-24 15:31:41 | INFO | M04 | Line:     body_mass_g = 668.444 * sex + 3867.97
+2026-07-24 15:31:41 | INFO | M04 | ========================
