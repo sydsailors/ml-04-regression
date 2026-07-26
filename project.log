@@ -290,3 +290,230 @@ dtype: int64
 2026-07-24 15:31:41 | INFO | M04 | Feature:  sex  ->  Target: body_mass_g  (regression)
 2026-07-24 15:31:41 | INFO | M04 | Line:     body_mass_g = 668.444 * sex + 3867.97
 2026-07-24 15:31:41 | INFO | M04 | ========================
+2026-07-26 13:24:46 | INFO | M04 | === RUN START ===
+2026-07-26 13:24:46 | INFO | M04 | project=M04
+2026-07-26 13:24:46 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-26 13:24:46 | INFO | M04 | python=3.14.5
+2026-07-26 13:24:46 | INFO | M04 | os=Darwin 20.6.0
+2026-07-26 13:24:46 | INFO | M04 | shell=zsh
+2026-07-26 13:24:46 | INFO | M04 | cwd=notebooks
+2026-07-26 13:24:46 | INFO | M04 | github_actions=False
+2026-07-26 13:24:46 | INFO | M04 | Confirming installation:
+2026-07-26 13:24:46 | INFO | M04 |   python:       3.14.5
+2026-07-26 13:24:46 | INFO | M04 |   pandas:       3.0.5
+2026-07-26 13:24:46 | INFO | M04 |   numpy:        2.5.1
+2026-07-26 13:24:46 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-26 13:24:46 | INFO | M04 |   seaborn:      0.13.2
+2026-07-26 13:24:46 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-26 13:31:13 | INFO | M04 | Loading dataset: Medical Cost Prediction
+2026-07-26 13:32:01 | INFO | M04 | Loading dataset: Medical Cost Prediction
+2026-07-26 13:35:10 | INFO | M04 | Loading dataset: Medical Cost Prediction
+2026-07-26 13:35:35 | INFO | M04 | Loading dataset: Medical Cost Prediction
+2026-07-26 13:35:35 | INFO | M04 | Loaded: 5000 rows (instances), 20 columns
+2026-07-26 13:35:35 | INFO | M04 | Original rows: 5000  Model rows: 5000
+2026-07-26 13:35:53 | INFO | M04 | Train instances: 4000
+2026-07-26 13:35:53 | INFO | M04 | Test instances: 1000
+2026-07-26 13:36:00 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-26 13:36:00 | INFO | M04 | Fitted line: annual_medical_cost = 0.112411 * previous_year_cost + 6907.49
+2026-07-26 13:36:07 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-26 13:36:07 | INFO | M04 |   R-squared: 0.0078
+2026-07-26 13:36:07 | INFO | M04 |   RMSE:      6956.58  (in units of Annual Medical Cost ($))
+2026-07-26 13:36:54 | DEBUG | M04 |   degree= 1  train RMSE=7063.3  test RMSE=6956.58
+2026-07-26 13:36:54 | DEBUG | M04 |   degree= 2  train RMSE=7062.9  test RMSE=6957.85
+2026-07-26 13:36:54 | DEBUG | M04 |   degree= 3  train RMSE=7061.2  test RMSE=6960.03
+2026-07-26 13:36:54 | DEBUG | M04 |   degree= 4  train RMSE=7061.19  test RMSE=6959.93
+2026-07-26 13:36:54 | DEBUG | M04 |   degree= 5  train RMSE=7059.6  test RMSE=6953.29
+2026-07-26 13:36:54 | DEBUG | M04 |   degree= 6  train RMSE=7059.35  test RMSE=6956.8
+2026-07-26 13:36:54 | DEBUG | M04 |   degree= 7  train RMSE=7059.2  test RMSE=6954.67
+2026-07-26 13:36:54 | DEBUG | M04 |   degree= 8  train RMSE=7058.74  test RMSE=6951.97
+2026-07-26 13:36:54 | DEBUG | M04 |   degree= 9  train RMSE=7056.95  test RMSE=6958.77
+2026-07-26 13:36:54 | DEBUG | M04 |   degree=10  train RMSE=7055.83  test RMSE=6959.87
+2026-07-26 13:37:08 | INFO | M04 | ========================
+2026-07-26 13:37:08 | INFO | M04 | SUMMARY
+2026-07-26 13:37:08 | INFO | M04 | ========================
+2026-07-26 13:37:08 | INFO | M04 | Dataset:  Medical Cost Prediction
+2026-07-26 13:37:08 | INFO | M04 | Feature:  previous_year_cost  ->  Target: annual_medical_cost  (regression)
+2026-07-26 13:37:08 | INFO | M04 | Line:     annual_medical_cost = 0.112411 * previous_year_cost + 6907.49
+2026-07-26 13:37:08 | INFO | M04 | ========================
+2026-07-26 13:43:38 | INFO | M04 | Train instances: 4000
+2026-07-26 13:43:38 | INFO | M04 | Test instances: 1000
+2026-07-26 13:43:44 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-26 13:43:44 | INFO | M04 | Fitted line: annual_medical_cost = 0.112465 * previous_year_cost + 6254.58
+2026-07-26 13:43:48 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-26 13:43:48 | INFO | M04 |   R-squared: 0.0053
+2026-07-26 13:43:48 | INFO | M04 |   RMSE:      6965.5  (in units of Annual Medical Cost ($))
+2026-07-26 13:48:21 | INFO | M04 | Loading dataset: Medical Cost Prediction
+2026-07-26 13:50:47 | INFO | M04 | Loading dataset: Medical Cost Prediction
+2026-07-26 13:50:58 | INFO | M04 | === RUN START ===
+2026-07-26 13:50:58 | INFO | M04 | project=M04
+2026-07-26 13:50:58 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-26 13:50:58 | INFO | M04 | python=3.14.5
+2026-07-26 13:50:58 | INFO | M04 | os=Darwin 20.6.0
+2026-07-26 13:50:58 | INFO | M04 | shell=zsh
+2026-07-26 13:50:58 | INFO | M04 | cwd=notebooks
+2026-07-26 13:50:58 | INFO | M04 | github_actions=False
+2026-07-26 13:50:58 | INFO | M04 | Confirming installation:
+2026-07-26 13:50:58 | INFO | M04 |   python:       3.14.5
+2026-07-26 13:50:58 | INFO | M04 |   pandas:       3.0.5
+2026-07-26 13:50:58 | INFO | M04 |   numpy:        2.5.1
+2026-07-26 13:50:58 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-26 13:50:58 | INFO | M04 |   seaborn:      0.13.2
+2026-07-26 13:50:58 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-26 13:51:01 | INFO | M04 | Loading dataset: Medical Cost Prediction
+2026-07-26 13:51:52 | INFO | M04 | === RUN START ===
+2026-07-26 13:51:52 | INFO | M04 | project=M04
+2026-07-26 13:51:52 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-26 13:51:52 | INFO | M04 | python=3.14.5
+2026-07-26 13:51:52 | INFO | M04 | os=Darwin 20.6.0
+2026-07-26 13:51:52 | INFO | M04 | shell=zsh
+2026-07-26 13:51:52 | INFO | M04 | cwd=notebooks
+2026-07-26 13:51:52 | INFO | M04 | github_actions=False
+2026-07-26 13:51:52 | INFO | M04 | Confirming installation:
+2026-07-26 13:51:52 | INFO | M04 |   python:       3.14.5
+2026-07-26 13:51:52 | INFO | M04 |   pandas:       3.0.5
+2026-07-26 13:51:52 | INFO | M04 |   numpy:        2.5.1
+2026-07-26 13:51:52 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-26 13:51:52 | INFO | M04 |   seaborn:      0.13.2
+2026-07-26 13:51:52 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-26 13:51:55 | INFO | M04 | Loading dataset: Medical Cost Prediction
+2026-07-26 13:51:55 | INFO | M04 | Loaded: 5000 rows (instances), 20 columns
+2026-07-26 13:51:55 | INFO | M04 | Original rows: 5000  Model rows: 5000
+2026-07-26 13:54:06 | INFO | M04 | === RUN START ===
+2026-07-26 13:54:06 | INFO | M04 | project=M04
+2026-07-26 13:54:06 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-26 13:54:06 | INFO | M04 | python=3.14.5
+2026-07-26 13:54:06 | INFO | M04 | os=Darwin 20.6.0
+2026-07-26 13:54:06 | INFO | M04 | shell=zsh
+2026-07-26 13:54:06 | INFO | M04 | cwd=notebooks
+2026-07-26 13:54:06 | INFO | M04 | github_actions=False
+2026-07-26 13:54:06 | INFO | M04 | Confirming installation:
+2026-07-26 13:54:06 | INFO | M04 |   python:       3.14.5
+2026-07-26 13:54:06 | INFO | M04 |   pandas:       3.0.5
+2026-07-26 13:54:06 | INFO | M04 |   numpy:        2.5.1
+2026-07-26 13:54:06 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-26 13:54:06 | INFO | M04 |   seaborn:      0.13.2
+2026-07-26 13:54:06 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-26 13:54:10 | INFO | M04 | Loading dataset: Medical Cost Prediction
+2026-07-26 13:54:10 | INFO | M04 | Loaded: 5000 rows (instances), 20 columns
+2026-07-26 13:54:10 | INFO | M04 | Original rows: 5000  Model rows: 5000
+2026-07-26 13:55:29 | INFO | M04 | Train instances: 4000
+2026-07-26 13:55:29 | INFO | M04 | Test instances: 1000
+2026-07-26 13:55:34 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-26 13:55:34 | INFO | M04 | Fitted line: annual_medical_cost = 0.112465 * ['previous_year_cost', 'age'] + 6254.58
+2026-07-26 13:55:43 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-26 13:55:43 | INFO | M04 |   R-squared: 0.0053
+2026-07-26 13:55:43 | INFO | M04 |   RMSE:      6965.5  (in units of Annual Medical Cost ($))
+2026-07-26 13:59:24 | DEBUG | M04 | degree= 1 train RMSE=7058.79 test RMSE=6965.5
+2026-07-26 13:59:24 | DEBUG | M04 | degree= 2 train RMSE=7056.22 test RMSE=6962.86
+2026-07-26 13:59:24 | DEBUG | M04 | degree= 3 train RMSE=7056.66 test RMSE=6961.91
+2026-07-26 13:59:24 | DEBUG | M04 | degree= 4 train RMSE=7058.02 test RMSE=6959.95
+2026-07-26 13:59:24 | DEBUG | M04 | degree= 5 train RMSE=7060.13 test RMSE=6957.02
+2026-07-26 13:59:24 | DEBUG | M04 | degree= 6 train RMSE=7062.25 test RMSE=6954.36
+2026-07-26 13:59:24 | DEBUG | M04 | degree= 7 train RMSE=7064.16 test RMSE=6952.88
+2026-07-26 13:59:24 | DEBUG | M04 | degree= 8 train RMSE=7065.89 test RMSE=6952.67
+2026-07-26 13:59:24 | DEBUG | M04 | degree= 9 train RMSE=7067.49 test RMSE=6953.48
+2026-07-26 13:59:24 | DEBUG | M04 | degree=10 train RMSE=7068.99 test RMSE=6954.98
+2026-07-26 14:00:19 | DEBUG | M04 | degree= 1 train RMSE=7058.79 test RMSE=6965.5
+2026-07-26 14:00:19 | DEBUG | M04 | degree= 2 train RMSE=7056.22 test RMSE=6962.86
+2026-07-26 14:00:19 | DEBUG | M04 | degree= 3 train RMSE=7056.66 test RMSE=6961.91
+2026-07-26 14:00:19 | DEBUG | M04 | degree= 4 train RMSE=7058.02 test RMSE=6959.95
+2026-07-26 14:00:19 | DEBUG | M04 | degree= 5 train RMSE=7060.13 test RMSE=6957.02
+2026-07-26 14:00:19 | DEBUG | M04 | degree= 6 train RMSE=7062.25 test RMSE=6954.36
+2026-07-26 14:00:19 | DEBUG | M04 | degree= 7 train RMSE=7064.16 test RMSE=6952.88
+2026-07-26 14:00:19 | DEBUG | M04 | degree= 8 train RMSE=7065.89 test RMSE=6952.67
+2026-07-26 14:00:19 | DEBUG | M04 | degree= 9 train RMSE=7067.49 test RMSE=6953.48
+2026-07-26 14:00:19 | DEBUG | M04 | degree=10 train RMSE=7068.99 test RMSE=6954.98
+2026-07-26 14:00:44 | DEBUG | M04 | degree= 1 train RMSE=7058.79 test RMSE=6965.5
+2026-07-26 14:00:44 | DEBUG | M04 | degree= 2 train RMSE=7056.22 test RMSE=6962.86
+2026-07-26 14:00:44 | DEBUG | M04 | degree= 3 train RMSE=7056.66 test RMSE=6961.91
+2026-07-26 14:00:44 | DEBUG | M04 | degree= 4 train RMSE=7058.02 test RMSE=6959.95
+2026-07-26 14:00:44 | DEBUG | M04 | degree= 5 train RMSE=7060.13 test RMSE=6957.02
+2026-07-26 14:00:44 | DEBUG | M04 | degree= 6 train RMSE=7062.25 test RMSE=6954.36
+2026-07-26 14:00:44 | DEBUG | M04 | degree= 7 train RMSE=7064.16 test RMSE=6952.88
+2026-07-26 14:00:44 | DEBUG | M04 | degree= 8 train RMSE=7065.89 test RMSE=6952.67
+2026-07-26 14:00:44 | DEBUG | M04 | degree= 9 train RMSE=7067.49 test RMSE=6953.48
+2026-07-26 14:00:45 | DEBUG | M04 | degree=10 train RMSE=7068.99 test RMSE=6954.98
+2026-07-26 14:03:23 | DEBUG | M04 | degree= 1 train RMSE=7058.79 test RMSE=6965.5
+2026-07-26 14:03:23 | DEBUG | M04 | degree= 2 train RMSE=7056.22 test RMSE=6962.86
+2026-07-26 14:03:23 | DEBUG | M04 | degree= 3 train RMSE=7056.66 test RMSE=6961.91
+2026-07-26 14:03:24 | DEBUG | M04 | degree= 4 train RMSE=7058.02 test RMSE=6959.95
+2026-07-26 14:03:24 | DEBUG | M04 | degree= 5 train RMSE=7060.13 test RMSE=6957.02
+2026-07-26 14:03:24 | DEBUG | M04 | degree= 6 train RMSE=7062.25 test RMSE=6954.36
+2026-07-26 14:03:24 | DEBUG | M04 | degree= 7 train RMSE=7064.16 test RMSE=6952.88
+2026-07-26 14:03:24 | DEBUG | M04 | degree= 8 train RMSE=7065.89 test RMSE=6952.67
+2026-07-26 14:03:24 | DEBUG | M04 | degree= 9 train RMSE=7067.49 test RMSE=6953.48
+2026-07-26 14:03:24 | DEBUG | M04 | degree=10 train RMSE=7068.99 test RMSE=6954.98
+2026-07-26 14:03:58 | DEBUG | M04 | degree= 1 train RMSE=7058.79 test RMSE=6965.5
+2026-07-26 14:03:58 | DEBUG | M04 | degree= 2 train RMSE=7056.22 test RMSE=6962.86
+2026-07-26 14:03:58 | DEBUG | M04 | degree= 3 train RMSE=7056.66 test RMSE=6961.91
+2026-07-26 14:03:58 | DEBUG | M04 | degree= 4 train RMSE=7058.02 test RMSE=6959.95
+2026-07-26 14:03:58 | DEBUG | M04 | degree= 5 train RMSE=7060.13 test RMSE=6957.02
+2026-07-26 14:03:58 | DEBUG | M04 | degree= 6 train RMSE=7062.25 test RMSE=6954.36
+2026-07-26 14:03:58 | DEBUG | M04 | degree= 7 train RMSE=7064.16 test RMSE=6952.88
+2026-07-26 14:03:58 | DEBUG | M04 | degree= 8 train RMSE=7065.89 test RMSE=6952.67
+2026-07-26 14:03:58 | DEBUG | M04 | degree= 9 train RMSE=7067.49 test RMSE=6953.48
+2026-07-26 14:03:58 | DEBUG | M04 | degree=10 train RMSE=7068.99 test RMSE=6954.98
+2026-07-26 14:04:38 | INFO | M04 | ========================
+2026-07-26 14:04:38 | INFO | M04 | SUMMARY
+2026-07-26 14:04:38 | INFO | M04 | ========================
+2026-07-26 14:04:38 | INFO | M04 | Dataset:  Medical Cost Prediction
+2026-07-26 14:04:38 | INFO | M04 | Feature:  ['previous_year_cost', 'age']  ->  Target: annual_medical_cost  (regression)
+2026-07-26 14:04:38 | INFO | M04 | Line:     annual_medical_cost = -1.24718e-47 * ['previous_year_cost', 'age'] + 7658.81
+2026-07-26 14:04:38 | INFO | M04 | ========================
+2026-07-26 14:14:20 | INFO | M04 | === RUN START ===
+2026-07-26 14:14:20 | INFO | M04 | project=M04
+2026-07-26 14:14:20 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-26 14:14:20 | INFO | M04 | python=3.14.5
+2026-07-26 14:14:20 | INFO | M04 | os=Darwin 20.6.0
+2026-07-26 14:14:20 | INFO | M04 | shell=zsh
+2026-07-26 14:14:20 | INFO | M04 | cwd=notebooks
+2026-07-26 14:14:20 | INFO | M04 | github_actions=False
+2026-07-26 14:14:20 | INFO | M04 | Confirming installation:
+2026-07-26 14:14:20 | INFO | M04 |   python:       3.14.5
+2026-07-26 14:14:20 | INFO | M04 |   pandas:       3.0.5
+2026-07-26 14:14:20 | INFO | M04 |   numpy:        2.5.1
+2026-07-26 14:14:20 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-26 14:14:20 | INFO | M04 |   seaborn:      0.13.2
+2026-07-26 14:14:20 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-26 14:14:23 | INFO | M04 | === RUN START ===
+2026-07-26 14:14:23 | INFO | M04 | project=M04
+2026-07-26 14:14:23 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-26 14:14:23 | INFO | M04 | python=3.14.5
+2026-07-26 14:14:23 | INFO | M04 | os=Darwin 20.6.0
+2026-07-26 14:14:23 | INFO | M04 | shell=zsh
+2026-07-26 14:14:23 | INFO | M04 | cwd=notebooks
+2026-07-26 14:14:23 | INFO | M04 | github_actions=False
+2026-07-26 14:14:23 | INFO | M04 | Confirming installation:
+2026-07-26 14:14:23 | INFO | M04 |   python:       3.14.5
+2026-07-26 14:14:23 | INFO | M04 |   pandas:       3.0.5
+2026-07-26 14:14:23 | INFO | M04 |   numpy:        2.5.1
+2026-07-26 14:14:23 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-26 14:14:23 | INFO | M04 |   seaborn:      0.13.2
+2026-07-26 14:14:23 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-26 14:14:23 | INFO | M04 | Loading dataset: Medical Cost Prediction
+2026-07-26 14:14:23 | INFO | M04 | Loaded: 5000 rows (instances), 20 columns
+2026-07-26 14:14:23 | INFO | M04 | Original rows: 5000  Model rows: 5000
+2026-07-26 14:14:23 | INFO | M04 | Train instances: 4000
+2026-07-26 14:14:23 | INFO | M04 | Test instances: 1000
+2026-07-26 14:14:23 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-26 14:14:23 | INFO | M04 | Fitted line: annual_medical_cost = 0.112465 * ['previous_year_cost', 'age'] + 6254.58
+2026-07-26 14:14:23 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-26 14:14:23 | INFO | M04 |   R-squared: 0.0053
+2026-07-26 14:14:23 | INFO | M04 |   RMSE:      6965.5  (in units of Annual Medical Cost ($))
+2026-07-26 14:14:24 | DEBUG | M04 | degree= 1 train RMSE=7058.79 test RMSE=6965.5
+2026-07-26 14:14:24 | DEBUG | M04 | degree= 2 train RMSE=7056.22 test RMSE=6962.86
+2026-07-26 14:14:24 | DEBUG | M04 | degree= 3 train RMSE=7056.66 test RMSE=6961.91
+2026-07-26 14:14:24 | DEBUG | M04 | degree= 4 train RMSE=7058.02 test RMSE=6959.95
+2026-07-26 14:14:24 | DEBUG | M04 | degree= 5 train RMSE=7060.13 test RMSE=6957.02
+2026-07-26 14:14:24 | DEBUG | M04 | degree= 6 train RMSE=7062.25 test RMSE=6954.36
+2026-07-26 14:14:24 | DEBUG | M04 | degree= 7 train RMSE=7064.16 test RMSE=6952.88
+2026-07-26 14:14:24 | DEBUG | M04 | degree= 8 train RMSE=7065.89 test RMSE=6952.67
+2026-07-26 14:14:24 | DEBUG | M04 | degree= 9 train RMSE=7067.49 test RMSE=6953.48
+2026-07-26 14:14:24 | DEBUG | M04 | degree=10 train RMSE=7068.99 test RMSE=6954.98
+2026-07-26 14:14:25 | INFO | M04 | ========================
+2026-07-26 14:14:25 | INFO | M04 | SUMMARY
+2026-07-26 14:14:25 | INFO | M04 | ========================
+2026-07-26 14:14:25 | INFO | M04 | Dataset:  Medical Cost Prediction
+2026-07-26 14:14:25 | INFO | M04 | Feature:  ['previous_year_cost', 'age']  ->  Target: annual_medical_cost  (regression)
+2026-07-26 14:14:25 | INFO | M04 | Line:     annual_medical_cost = -1.24718e-47 * ['previous_year_cost', 'age'] + 7658.81
+2026-07-26 14:14:25 | INFO | M04 | ========================
