@@ -517,3 +517,13 @@ dtype: int64
 2026-07-26 14:14:25 | INFO | M04 | Feature:  ['previous_year_cost', 'age']  ->  Target: annual_medical_cost  (regression)
 2026-07-26 14:14:25 | INFO | M04 | Line:     annual_medical_cost = -1.24718e-47 * ['previous_year_cost', 'age'] + 7658.81
 2026-07-26 14:14:25 | INFO | M04 | ========================
+2026-07-26 14:16:22 | DEBUG | M04 | degree= 1 train RMSE=7058.79 test RMSE=6965.5
+2026-07-26 14:16:22 | DEBUG | M04 | degree= 2 train RMSE=7056.22 test RMSE=6962.86
+2026-07-26 14:16:22 | DEBUG | M04 | degree= 3 train RMSE=7056.66 test RMSE=6961.91
+2026-07-26 14:16:22 | DEBUG | M04 | degree= 4 train RMSE=7058.02 test RMSE=6959.95
+2026-07-26 14:16:22 | DEBUG | M04 | degree= 5 train RMSE=7060.13 test RMSE=6957.02
+2026-07-26 14:16:22 | DEBUG | M04 | degree= 6 train RMSE=7062.25 test RMSE=6954.36
+2026-07-26 14:16:22 | DEBUG | M04 | degree= 7 train RMSE=7064.16 test RMSE=6952.88
+2026-07-26 14:16:22 | DEBUG | M04 | degree= 8 train RMSE=7065.89 test RMSE=6952.67
+2026-07-26 14:16:22 | DEBUG | M04 | degree= 9 train RMSE=7067.49 test RMSE=6953.48
+2026-07-26 14:16:22 | DEBUG | M04 | degree=10 train RMSE=7068.99 test RMSE=6954.98
