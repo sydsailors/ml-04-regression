@@ -21,85 +21,80 @@ to get the example projects running on your machine.
 
 ## Phase 4. Technical Modification
 
-Describe your small technical modification to the example project.
+Some easy changes made for Phase 4 include:
+- Copying `ml_04_regression.ipynb` and renaming it
+`ml_04_regression_sailors.ipynb`
+- Modified the feature column to `sex`
+- Converted that column from categorical to numerical
 
-Include:
+The regression equation updated where the intercept represents
+the predicted body mass for females and the slope shows the average
+difference in body mass between males and females. The r-squared
+came out to be 0.2158 and the RMSEs were higher.
 
-- What you changed
-- Why you chose that change
-- How you verified that it worked
-- What result, output, chart, metric, or behavior confirmed the change
-
-Compared with the example project,
-explain what is different and why the change matters.
-
-Was it easy, or surprisingly challenging and why do you think so?
+These changes were made to see how the model would perform with a weak
+predictor.
 
 ## Phase 5. Custom Project
 
-Describe your custom project and how you made your modeling decisions.
-
-Be specific about what changed from the example project.
+Changes for Phase 5 include:
+- Copying `ml_04_regression.ipynb` and renaming it
+`ml_04_regression_medical.ipynb`
+- Added `medical_cost_prediction_dataset.csv` from Kaggle
+to the data/raw folder
+- Imported that dataset into `ml_04_regression_medical.ipynb`
+- Made `annual_medical_cost` the target
+- Made `previous_year_cost` and `age` the features by updating
+`FEATURE_COL` to `FEATURE_COLS`
 
 ### Basis and Data
 
-Describe the dataset, input, or example you started with.
-
-Include:
-
-- The original example dataset or input
-- The data source
-- Why you chose it, kept it, or changed it
-- Any important limitations or assumptions
+The example project in `notebooks/ml_04_regression.ipynb` had an intended target
+`body_mass_g` from the Seaborn Penguins dataset. I decided to use the
+workflow and apply it to the `Medical Cost Prediction` dataset I imported from
+Kaggle. I chose this dataset because I had worked with this dataset prior and
+wanted to use it for a regression model.
 
 ### Modeling Approach
 
-Describe the problem type and modeling approach for this project.
-
-Include:
-
-- Is this supervised or unsupervised and how do you know
-- Is this classification, regression, clustering, recommendation, forecasting, or another type of ML task
-- What kind of target works well for this approach
-- Why your selected model or method is appropriate
+This project is a supervised machine learning regression problem because the
+chosen target is numerical. This model uses `previous_year_cost` and `age` as predictor variables to predict a patient's annual medical costs.
 
 ### Target
 
-Describe the example target variable.
+The example target variable, `body_mass_g`, represents the weight of the penguin.
+The target variable, `annual_medical_cost`, represents a patient's annual medical
+cost in dollars.
 
-Then describe your chosen target variable.
-
-Explain how your target choice changes the modeling approach, interpretation, or evaluation.
+The project remained a supervised regression model.
 
 ### Features
 
-Describe the example features.
+The original example used `flipper_length_mm` to predict `body_mass_g`.
+My project used the features `previous_year_cost` and `age` to predict
+`annual_medical_cost`.
 
-Then describe the features you used to predict your target.
-
-Explain what you changed, added, removed, or kept and why.
+I chose these features because age and previous medical expenses are both
+likely to influence future healthcare costs.
 
 ### Evaluation and Results
 
-Describe how you evaluated your model.
-
-Include:
-
-- The metric or evidence you used
-- The main result
-- Whether the result was useful, interesting, surprising, or disappointing
-- Any weakness, limitation, or next improvement
+My model used R-squared, Root Mean Squared Error (RMSE), and residual plots.
+The R-squared value came out to be 0.0053 and an RMSE of approximately $6,965.50.
+Even though the polynomial model with a degree of 8 produced the lowest test RMSE,
+the improvement over the linear model was very small. These results suggest that
+`previous_year_cost` and `age` alone are not strong predictors of `annual_medical_cost`. To improve the model in the future, I would include
+additional features such as `bmi`, `smoker`, or chronic health conditions
+(`diabetes`, `hypertension`, `heart_disease`, `asthma`).
 
 ### Summary
 
-Summarize your custom project.
-
-Include:
-
-- How you implemented your custom model
-- What results you got
-- What you learned
-- How well you exercised the skills covered in this project
-- What kinds of real problems you could apply these skills to in the future
-
-Display at least one image or screenshot showing your work.
+For this project, I customized the regression example by replacing the
+original dataset with a medical cost dataset. The features `previous_year_cost`
+and `age` were used to predict `annual_medical_cost` and compared linear and
+polynomial regression models. The polynomial model improved the RMSE slightly,
+but overall model performance remained weak. This showed that additional
+predictors are needed. This project strengthened my skills in preparing data,
+training regression models, evaluating performance, and interpreting residual
+plots. These skills can be applied to real-world healthcare analytics or
+financial forecasting.
