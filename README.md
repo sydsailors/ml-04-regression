@@ -26,7 +26,9 @@ See [docs/your-files.md] for more.
 
 Links:
 
-- [ml_04_case.ipynb](notebooks/ml_04_case.ipynb)
+- [ml_04_regression.ipynb](notebooks/ml_04_regression.ipynb)
+- [ml_04_regression_sailors.ipynb](notebooks/ml_04_regression_sailors.ipynb)
+- [ml_04_regression_medical.ipynb](notebooks/ml_04_regression_medical.ipynb)
 
 ## Working Files
 
